@@ -1,0 +1,3 @@
+[submodule "xmake"]
+	path = xmake
+	url = git://github.com/Kanma/XMake.git
