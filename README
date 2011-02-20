@@ -33,9 +33,13 @@ Configuration
 
 Before compiling this project, it will be configured using the Python interpreter you
 want to create modules for. By default, the command 'python' is used. If you want to
-use another instance of Python on your system, change the value of the setting
-SIP_PYTHON_INTERPRETER (by using ccmake for instance, or directly on the command line
-using the -D notation).
+use another instance of Python on your system, change the value of the following
+settings (by using ccmake for instance, or directly on the command line using the
+'-D<setting>=<value>' notation):
+
+  - SIP_PYTHON_INTERPRETER
+  - SIP_PYTHON_INCLUDE_PATH
+  - SIP_PYTHON_LIBRARIES
 
 
 Compilation

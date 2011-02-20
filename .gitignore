@@ -1,0 +1,12 @@
+*.tmproj
+*.pyc
+
+/build*/
+
+/Makefile
+/sipconfig.py
+/sipgen/Makefile
+/siplib/Makefile
+/siplib/sip.h
+/siplib/siplib.c
+/siplib/siplib.sbf
